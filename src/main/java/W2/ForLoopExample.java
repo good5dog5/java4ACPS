@@ -1,3 +1,5 @@
+package W2;
+
 public class ForLoopExample {
     private static void printTriangleTrivial() {
         System.out.println("*****");

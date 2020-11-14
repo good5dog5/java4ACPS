@@ -1,3 +1,5 @@
+package W2;
+
 public class WhyFail {
     public static void main(String[] args) {
         int j =0;
