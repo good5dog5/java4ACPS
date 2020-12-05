@@ -6,7 +6,8 @@ public class BankAccountTest {
 
     public static void main(String[] args) {
         BankAccount bankAccount1 = new BankAccount(12345L, "Jordan", 1000000.00);
-        BankAccount bankAccount2 = new BankAccount(12345L, "Jordan", 1000000.00);
+        BankAccount bankAccount2 = new BankAccount(12345L, null);
+
         System.out.println(bankAccount1.getAccountNumber());
 
 

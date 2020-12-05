@@ -17,4 +17,14 @@ public class BankAccount {
         this.owner = owner;
         this.balance = balance;
     }
+
+    public BankAccount(long accountNumber, String owner) {
+        this.accountNumber = accountNumber;
+        this.owner = owner;
+    }
+
+    public BankAccount(String owner) {
+        this.owner = owner;
+    }
+
 }
