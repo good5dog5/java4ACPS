@@ -3,10 +3,11 @@ package W6.forloopAndCondition;
 public class P1_TableManipulation {
 
     private static void oneMultiply() {
-        System.out.println("todo");
-//        for() {
-//            System.out.printf("% * % = %\n", i, i, );
-//        }
+        for(int i=1; i<=9; i++){
+            for(int j=1; j<=9; j++){
+                System.out.printf("%d * %d = %d\n", i, j, i*j);
+            }
+        }
     }
 
     public static void main(String[] args) {
